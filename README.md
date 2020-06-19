@@ -15,7 +15,7 @@ This template requires Python 3 and [cookiecutter](https://cookiecutter.readthed
    ```
 2. Create a new project:
    ```bash
-   cookiecutter gh:sheikhomar/cookiecutter-data-science
+   cookiecutter gh:Inspari/cookiecutter-data-science
    ```
 3. Initialise a new Git repository:
    ```bash

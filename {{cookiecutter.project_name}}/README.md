@@ -25,3 +25,14 @@
    ```bash
    poetry run pre-commit install
    ```
+6. Setup Visual Studio Code:
+   ```bash
+   poetry env info
+   ```
+   Copy the full path of the virtualenv created by Poetry.
+   Create a file `.vscode/settings.json` with the following contents:
+      ```json
+      {
+        "python.pythonPath": "/path-to-poetry-virtualenv"
+      }
+      ```

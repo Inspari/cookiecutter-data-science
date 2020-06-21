@@ -2,6 +2,25 @@
 
 {{cookiecutter.project_description}}
 
+## Configuration
+
+*An example of how the configuration of the application should be documented.*
+
+This app pulls configuration settings from the enviroment. Following environment variables are required:
+- `DB_HOSTNAME`: The hostname of the database server where the ABT is stored.
+- `DB_DATABASE`: The name of the database.
+- `DB_USERNAME`: A username that has read-access to the ABT.
+- `DB_PASSWORD`: The password for the username.
+
+For development purposes, you can create an `.env` file in the project folder with the following content:
+
+```
+DB_HOSTNAME=<hostname>
+DB_DATABASE=<database name>
+DB_USERNAME=<username>
+DB_PASSWORD=<password>
+```
+
 ## Development Setup
 
 1. Install [pyenv](https://github.com/pyenv/pyenv):

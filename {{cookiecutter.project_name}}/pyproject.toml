@@ -4,15 +4,13 @@ version = "0.1.0"
 description = "{{ cookiecutter.project_description }}"
 authors = ["{{ cookiecutter.author_name }} <{{ cookiecutter.author_email }}>"]
 readme = "README.md"
-license = "MIT"
 repository = ""
 keywords = [
     "data-science", "python",
 ]
 include = [
     "README.md",
-    "pyproject.toml",
-    "LICENSE"
+    "pyproject.toml"
 ]
 
 [tool.poetry.dependencies]
